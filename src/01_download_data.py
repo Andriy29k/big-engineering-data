@@ -1,5 +1,6 @@
 import yfinance as yf
 
+# Can be changed to any other currency, stock, or commodity ticker supported by Yahoo Finance
 ticker = "BZ=F"
 
 df = yf.download(
