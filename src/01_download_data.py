@@ -6,7 +6,7 @@ ticker = "BZ=F"
 df = yf.download(
     ticker,
     start="2010-01-01",
-    end="2026-05-27",
+    end="2026-06-07",
     interval="1d",
     auto_adjust=True
 )
